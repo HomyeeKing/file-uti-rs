@@ -1,6 +1,6 @@
 [package]
 name = "file-uti"
-version = "0.1.0"
+version = "0.1.1"
 edition = "2021"
 description = "Rust crate to get the UTI (Uniform Type Identifier) of a file on macOS"
 license = "MIT"
