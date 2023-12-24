@@ -19,7 +19,6 @@ pub fn file_uti_sync(path: String) -> String {
     result
 }
 
-#[tokio::main]
 pub async fn file_uti(path: String) -> String {
     let output = AsyncCommand::new("mdls")
         .arg("-raw")
